@@ -8,13 +8,17 @@ import {
 	ScrollArea,
 } from "@mantine/core";
 import {
-	IconAdjustments,
-	IconCalendarStats,
-	IconDeviceDesktopQuestion,
-	IconFileAnalytics,
+	IconBrandTrello,
+	IconCamera,
+	IconCpu2,
+	IconDeviceImac,
+	IconDeviceIpad,
+	IconDeviceLaptop,
+	IconDeviceMobile,
+	IconDevicesPc,
+	IconDeviceWatch,
 	IconGauge,
-	IconLock,
-	IconPresentationAnalytics,
+	IconPrinter,
 	IconUserShield,
 } from "@tabler/icons-react";
 
@@ -30,36 +34,24 @@ const mockdata = [
 	},
 	{
 		label: "GPU Management",
-		icon: IconDeviceDesktopQuestion,
+		icon: IconCpu2,
 		initiallyOpened: false,
 		links: [
 			{ label: "Overview", link: "/" },
-			{ label: "Forecasts", link: "/" },
-			{ label: "Outlook", link: "/" },
-			{ label: "Real time", link: "/" },
+			{ label: "List", link: "/" },
+			{ label: "New", link: "/" },
+			{ label: "Setting", link: "/" },
 		],
 	},
-	{
-		label: "Releases",
-		icon: IconCalendarStats,
-		links: [
-			{ label: "Upcoming releases", link: "/" },
-			{ label: "Previous releases", link: "/" },
-			{ label: "Releases schedule", link: "/" },
-		],
-	},
-	{ label: "Analytics", icon: IconPresentationAnalytics },
-	{ label: "Contracts", icon: IconFileAnalytics },
-	{ label: "Settings", icon: IconAdjustments },
-	{
-		label: "Security",
-		icon: IconLock,
-		links: [
-			{ label: "Enable 2FA", link: "/" },
-			{ label: "Change password", link: "/" },
-			{ label: "Recovery codes", link: "/" },
-		],
-	},
+	{ label: "Motherboard Management", icon: IconBrandTrello },
+	{ label: "Desktop", icon: IconDevicesPc },
+	{ label: "Laptop", icon: IconDeviceLaptop },
+	{ label: "Mobile Phone", icon: IconDeviceMobile },
+	{ label: "iPad", icon: IconDeviceIpad },
+	{ label: "Printer", icon: IconPrinter },
+	{ label: "Monitor", icon: IconDeviceImac },
+	{ label: "Watch", icon: IconDeviceWatch },
+	{ label: "Camera", icon: IconCamera },
 ];
 
 const useStyles = createStyles((theme) => ({
