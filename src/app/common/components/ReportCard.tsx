@@ -18,7 +18,7 @@ export function ReportCardWhitChart() {
 		<Card withBorder shadow="sm" radius="md">
 			<Card.Section inheritPadding py="xs">
 				<Group position="apart">
-					<Text weight={500}>Review pictures</Text>
+					<Text weight={500}>Report Card</Text>
 					<Menu withinPortal position="bottom-end" shadow="sm">
 						<Menu.Target>
 							<ActionIcon>
@@ -93,7 +93,7 @@ export function ReportCardWhitChartTwo() {
 		<Card withBorder shadow="sm" radius="md">
 			<Card.Section inheritPadding py="xs">
 				<Group position="apart">
-					<Text weight={500}>Review pictures</Text>
+					<Text weight={500}>Report Card</Text>
 					<Menu withinPortal position="bottom-end" shadow="sm">
 						<Menu.Target>
 							<ActionIcon>
@@ -146,7 +146,7 @@ export function ReportCardWhitChartThree() {
 		<Card withBorder shadow="sm" radius="md">
 			<Card.Section inheritPadding py="xs">
 				<Group position="apart">
-					<Text weight={500}>Review pictures</Text>
+					<Text weight={500}>Report Card</Text>
 					<Menu withinPortal position="bottom-end" shadow="sm">
 						<Menu.Target>
 							<ActionIcon>
@@ -204,7 +204,7 @@ export function ReportCardWhitChartFour() {
 		<Card withBorder shadow="sm" radius="md">
 			<Card.Section inheritPadding py="xs">
 				<Group position="apart">
-					<Text weight={500}>Review pictures</Text>
+					<Text weight={500}>Report Card</Text>
 					<Menu withinPortal position="bottom-end" shadow="sm">
 						<Menu.Target>
 							<ActionIcon>
